@@ -230,3 +230,232 @@ body {
 .place:hover img {
   transform: scale(1.1);
 }
+
+.place-info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 73, 52, 0.6);
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: 'Libre Franklin', sans-serif;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.place:hover .place-info {
+  opacity: 1;
+}
+
+.banner-2{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-2 img{
+  width:100%;
+  filter: brightness(70%);
+}
+
+.holiday-text {
+  position: absolute;
+  top: 15%;
+  text-align:center;
+  font-size: 700%;
+  z-index: 1;
+  filter: drop-shadow(0px 0px 80px #00000048);
+}
+
+.enjoy-your {
+  display: block;
+  font-family: 'Libre Franklin', sans-serif; 
+  color: #fff;
+  font-weight: bold;
+}
+
+.holidays {
+  display: block;
+  font-family: 'Pinyon Script', cursive;
+  font-weight: bold;
+  color: rgb(0, 199, 143); 
+  font-size: 100%;
+}
+
+.contact-button {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: .6% 3%;
+  background-color: #00518a;
+  color: #fff;
+  border: none;
+  width: 12%;
+  border-radius: 25px;
+  font-family: 'Libre Franklin', sans-serif; 
+  font-size: 75%; 
+  cursor: pointer;
+  z-index: 1;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #0071c1;
+}
+
+.contact-button:active {
+  background-color: rgb(0, 133, 227);
+}
+
+.banner-3{
+  height: 1000px;
+  width: 100%;
+  position: relative;
+  background: linear-gradient(to top, rgba(0, 0, 0, .3), rgba(255, 255, 255, 1)), url('images/banner-image-3.jpg') center/cover;
+  overflow: hidden;
+}
+
+.review-heading{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  line-height: 12px;
+}
+
+.review-heading h1{
+  font-family: 'Marck Script', cursive;
+  font-size: 80px;
+  color: rgb(0, 145, 104);
+}
+
+.review-heading h2{
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 30px;
+  color: #292929;
+}
+
+.profile-card{
+  display: flex;
+  justify-content:center;
+  gap: 5%;
+}
+
+.card{
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 70px rgba(0, 0, 0, .1);
+  width: 500px;
+  border-radius: 10px;
+  padding: 30px 40px ;
+  font-family: 'Libre Franklin', sans-serif;
+  margin-bottom: 100px;
+}
+
+.story{
+  line-height: 30px;
+  color: #292929;
+  font-size: 18px;
+}
+
+.user-name{
+  font-size: 15px;
+  font-weight:500 ;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  color: #292929;
+}
+
+.user-place{
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: -8px;
+}
+
+.profile-card img{
+  position: absolute;
+  width: 100px;
+  transform: translateX(380px);
+  margin-top: -23px;
+  filter: drop-shadow(0px 5px 3px rgba(0, 0, 0, .15));
+}
+
+.about-us-button {
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 12px 30px;
+  background-color: #8d1a67;
+  color: #fff;
+  border: none;
+  width: 150px;
+  border-radius: 8px;
+  font-family: 'Libre Franklin', sans-serif; 
+  font-size: 12px; 
+  cursor: pointer;
+  z-index: 1;
+  transition: background-color 0.3s ease;
+}
+
+.about-us-button:hover {
+  background-color: rgb(165, 0, 191);
+}
+
+.about-us-button:active {
+  background-color: rgb(194, 0, 224);
+}
+
+.association{
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Libre Franklin', sans-serif;
+  padding-top: 30px;
+  color: #757575;
+  letter-spacing: 2px;
+  background-color: #ebebeb;
+  line-height: 50px;
+}
+
+.association-logos {
+  display: flex;
+  justify-content: center;
+  filter: saturate(0);
+  padding-bottom: 40px;
+}
+
+.association-logos img {
+  width: 130px;
+  cursor: pointer;
+}
+
+.association-logos img:first-child {
+  margin-right: 300px;
+}
+
+.association-logos img:last-child {
+  margin-left: 300px;
+}
+
+.footer {
+  background-color: #373536;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Libre Franklin', sans-serif;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 30%;
+}
+
+.footer-logo{
+  width:200px;
+  border-radius: 5px;
+}
